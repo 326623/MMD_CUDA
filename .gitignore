@@ -1,32 +1,69 @@
-# Prerequisites
-*.d
+data
+.DS_Store
+__pycache__
+.idea
+*.pkl
+cmake-build-debug/
+cmake-build-relwithdebinfo/
+cmake-build-release/
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Eclipse CPP
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+.project
 
-# Precompiled Headers
-*.gch
-*.pch
+# External tool builders
+.externalToolBuilders/
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# Locally stored "Eclipse launch configurations"
+*.launch
 
-# Fortran module files
-*.mod
-*.smod
+# PyDev specific (Python IDE for Eclipse)
+*.pydevproject
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# CDT-specific (C/C++ Development Tooling)
+.cproject
 
-# Executables
-*.exe
-*.out
-*.app
+# CDT- autotools
+.autotools
+
+# Java annotation processor (APT)
+.factorypath
+
+# PDT-specific (PHP Development Tools)
+.buildpath
+
+# sbteclipse plugin
+.target
+
+# Tern plugin
+.tern-project
+
+# TeXlipse plugin
+.texlipse
+
+# STS (Spring Tool Suite)
+.springBeans
+
+# Code Recommenders
+.recommenders/
+
+# Annotation Processing
+.apt_generated/
+.apt_generated_test/
+
+# Scala IDE specific (Scala & Java development for Eclipse)
+.cache-main
+.scala_dependencies
+.worksheet
+
+.gitignore
